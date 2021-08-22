@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.code-mirror-wrapper {
+  height: 60vh !important;
+}
+.CodeMirror{
+ height: inherit !important;
+}
+.editor-div{
+  display: flex;
+  width: 32vw;
+  flex-direction: column;
+}
+.App{
+  display: flex;
+  justify-content: space-evenly;
+}
+.Output{
+  margin: 18px;
+  height: 28vh;
+}
